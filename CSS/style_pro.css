@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebe0;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #4a3b32;
+    margin-bottom: 20px;
+}
+
+
+.tabla-comparativa {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.encabezado-pros {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px;
+}
+
+.encabezado-contras {
+    background-color: #c62828;
+    color: white;
+    padding: 12px;
+}
+
+
+.tabla-comparativa td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-comparativa tr td:nth-child(1) {
+    background-color: #e8f5e9; 
+}
+
+.tabla-comparativa tr td:nth-child(2) {
+    background-color: #ffebee; 
+}
+
+
+.img-cuadro {
+    width: 90%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #ffffff;
+    border-radius: 6px;
+}
